@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/bd5f8f63ee.js"
       crossorigin="anonymous"
     ></script>
-
+    <link rel="stylesheet" href="css/styles.css" />
     <!--load all styles -->
 
     <title>Friends | Kakao Clone</title>
@@ -42,50 +42,46 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <dev class="friends__friend friend friend--lg">
+        <div class="friends__friend friend friend--lg">
           <div class="friend__column">
             <img
-              src="images/profile_card.jpeg"
+              src="images/profile_card2.jpg"
               class="g-avatar friend__avatar"
             />
             <div class="friend__content">
-              <span class="friend__name">Tae Hyung</span>
-              <span class="friend__status">nomal ~ ~</span>
+              <span class="friend__name">시훈</span>
+              <span class="friend__status">살기 고달파</span>
             </div>
           </div>
-        </dev>
+        </div>
       </header>
-      <div class="friends__plus-friend">
+      <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
-        <dev class="friends__friend friend">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/profile_card.jpeg"
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/profile_card.jpeg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">Plus Friend</span>
             </div>
           </div>
-        </dev>
+        </div>
       </div>
-      <ul class="friend__list">
+      <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img
-              src="images/profile_card.jpeg"
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/profile_card.jpeg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">Tae Hyung</span>
-              <span class="friend__status">I love V 🥰</span>
+              <span class="friend__status">벚꽃!! 예쁘다</span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>Oasis - Live Forever</span>
-              <i class="fas fa-play"></i>
+              <span
+                >Oasis - Live Forever
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
@@ -95,11 +91,12 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
+            <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i
           ></a>
         </li>

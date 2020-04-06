@@ -7,10 +7,10 @@
       src="https://kit.fontawesome.com/bd5f8f63ee.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -27,41 +27,58 @@
       <div class="header__header-column">
         <div class="header__back-btn">
           <a href="index.html">
-            <i class="fas fa-arrow-left fa-2x"></i>
+            <i class="fas fa-arrow-left"></i>
           </a>
         </div>
-        <h1 class="header__title">Best Friend</h1>
+        <h1 class="header__title">My Tae 🐻</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <div class="header__icon">
+        <span class="header__icon">
           <i class="fas fa-bars"></i>
-        </div>
+        </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Thursday, April 2, 2020</span>
         <li class="incoming-message message">
           <img
             src="images/profile_card.jpeg"
-            class="g-avatar message__avatar"
+            class="m-avatar message__avatar"
           />
           <div class="message__content">
             <span class="message__author">My Tae 🐻</span>
             <div class="message__bubble">
-              언제 금요일 돼? . . . .
+              ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
             </div>
-            <span class="chat__timestamp">Thursday, April 2, 2020</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <div class="message__bubble">
+              개웃곀ㅋㅋㅋㅋㅋㅋㅋㅋ
+            </div>
           </div>
         </li>
         <li class="incoming-message message">
-          <span class="chat__timestamp">Thursday, April 2, 2020</span>
+          <img
+            src="images/profile_card.jpeg"
+            class="m-avatar message__avatar"
+          />
+          <div class="message__content">
+            <span class="message__author">My Tae 🐻</span>
+            <span class="message__bubble">
+              완전 웃겨 미쳤어 ㅋㅎㅋㅎ
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
           <div class="message__content">
             <div class="message__bubble">
-              오늘 목요일이거든 ㅠ
+              고구마는 호.박.고.구.마
             </div>
           </div>
         </li>
@@ -74,7 +91,7 @@
       <div class="chat__write-column">
         <input
           type="text"
-          placeholder="Seng message"
+          placeholder="Send message"
           class="chat__write-input"
         />
       </div>
